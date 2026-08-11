@@ -87,13 +87,13 @@ $$AN=AC\cdot\sin\theta_1=2d\tan\theta_2\cdot\sin\theta_1.$$
 
 于是光程差
 
-$$\Delta=n(AB+BC)-n_0AN=2nd\cos\theta_2=2d\sqrt{n^2-n_0^2\sin^2\theta_1}, \tag{1}$$
+$$\Delta=n(AB+BC)-n_0AN=2nd\cos\theta_2=2d\sqrt{n^2-n_0^2\sin^2\theta_1}, \qquad(1)$$
 
 其中第一个等号是光程差的定义，后两个等号由折射定律 $n_0\sin\theta_1=n\sin\theta_2$ 得到。
 
 由于上、下两个界面的反射性质不同，反射光之间存在 $\pi$ 相位突变（半波损失），等效光程差应再增加半个波长：
 
-$$\Delta=2d\sqrt{n^2-n_0^2\sin^2\theta_1}+\frac{\lambda}{2}. \tag{2}$$
+$$\Delta=2d\sqrt{n^2-n_0^2\sin^2\theta_1}+\frac{\lambda}{2}. \qquad(2)$$
 
 对于厚度计算公式的推导， $\lambda/2$ 项对两束光同等地移动干涉级次，相减后抵消，因此是否计入并不影响厚度公式（见 2.4 节）。
 
@@ -101,15 +101,15 @@ $$\Delta=2d\sqrt{n^2-n_0^2\sin^2\theta_1}+\frac{\lambda}{2}. \tag{2}$$
 
 设两束反射光光强分别为 $I_1$ 、 $I_2$ ，波长相同，相位差
 
-$$\delta=\frac{2\pi\Delta}{\lambda}. \tag{3}$$
+$$\delta=\frac{2\pi\Delta}{\lambda}. \qquad(3)$$
 
 两束光相干叠加，干涉光强为（双光束干涉的数学模型）
 
-$$I=I_1+I_2+2\sqrt{I_1I_2}\cos\delta. \tag{4}$$
+$$I=I_1+I_2+2\sqrt{I_1I_2}\cos\delta. \qquad(4)$$
 
-当 $I_1\approx I_2$ 时，式 (17) 简化为
+当 $I_1\approx I_2$ 时，式 (4) 简化为
 
-$$I=4I_1\cos^2\frac{\pi\Delta}{\lambda}. \tag{5}$$
+$$I=4I_1\cos^2\frac{\pi\Delta}{\lambda}. \qquad(5)$$
 
 由式 (5)：当 $\Delta=m\lambda$ 时， $\cos^2(m\pi)=1$ ，光强达到最大，出现亮条纹；当 $\Delta=\left(m+\frac12\right)\lambda$ 时，光强达到最小，出现暗条纹。因此干涉光谱呈现明暗相间的周期条纹，条纹位置由外延层厚度 $d$ 与折射率决定，这是由光谱确定厚度的物理基础。
 
@@ -119,7 +119,7 @@ $$I=4I_1\cos^2\frac{\pi\Delta}{\lambda}. \tag{5}$$
 
 取两个相邻的亮条纹波长 $\lambda_1>\lambda_2$ ，满足
 
-$$\Delta=m\lambda_1,\qquad \Delta=(m+1)\lambda_2, \tag{6}$$
+$$\Delta=m\lambda_1,\qquad \Delta=(m+1)\lambda_2, \qquad(6)$$
 
 其中 $m$ 为干涉级次。由式 (2)、(6) 得
 
@@ -134,22 +134,22 @@ $$\frac{2d\sqrt{n^2-n_0^2\sin^2\theta_1}}{\lambda_1}=m-\frac12,\qquad
 两式相减得
 
 $$d=\left(2\sqrt{n^2-n_0^2\sin^2\theta_1}\right)^{-1}
-\left(\frac{1}{\lambda_2}-\frac{1}{\lambda_1}\right)^{-1}. \tag{7}$$
+\left(\frac{1}{\lambda_2}-\frac{1}{\lambda_1}\right)^{-1}. \qquad(7)$$
 
 若两个亮条纹之间间隔 $N$ 个条纹（ $N$ 为条纹间隔数，可为整数；若为波峰与波谷之间则为半整数），即
 
-$$\Delta=m\lambda_1,\qquad \Delta=(m+N)\lambda_2, \tag{8}$$
+$$\Delta=m\lambda_1,\qquad \Delta=(m+N)\lambda_2, \qquad(8)$$
 
 则式 (7) 推广为
 
 $$d=\frac{N}{2\sqrt{n^2-n_0^2\sin^2\theta_1}}\cdot
-\left(\frac{1}{\lambda_2}-\frac{1}{\lambda_1}\right)^{-1}. \tag{9}$$
+\left(\frac{1}{\lambda_2}-\frac{1}{\lambda_1}\right)^{-1}. \qquad(9)$$
 
 式 (9) 是常数折射率情形下薄膜厚度的常用计算公式。取多个条纹间隔计算并求平均，可减小参数误差对结果的影响。
 
 改用波数 $\omega_1=1/\lambda_1$ 、 $\omega_2=1/\lambda_2$ 表示（波峰坐标），式 (9) 改写为
 
-$$d=\frac{N}{2\sqrt{n^2-n_0^2\sin^2\theta_1}}\cdot\frac{1}{\omega_2-\omega_1}. \tag{10}$$
+$$d=\frac{N}{2\sqrt{n^2-n_0^2\sin^2\theta_1}}\cdot\frac{1}{\omega_2-\omega_1}. \qquad(10)$$
 
 #### 2.5.2 非常数折射率情形（本题主线公式）
 
@@ -160,7 +160,7 @@ $$\omega_1\Delta(\omega_1)=m,\qquad \omega_2\Delta(\omega_2)=m+N.$$
 两式相减，得
 
 $$d=\frac{N}{2\left[\omega_2\sqrt{n^2(\omega_2)-n_0^2\sin^2\theta_1}-
-\omega_1\sqrt{n^2(\omega_1)-n_0^2\sin^2\theta_1}\right]}. \tag{11}$$
+\omega_1\sqrt{n^2(\omega_1)-n_0^2\sin^2\theta_1}\right]}. \qquad(11)$$
 
 式 (11) 是式 (10) 的推广：当 $n$ 为常数时， $\omega_2\sqrt{n^2-n_0^2\sin^2\theta_1}-\omega_1\sqrt{n^2-n_0^2\sin^2\theta_1}=(\omega_2-\omega_1)\sqrt{n^2-n_0^2\sin^2\theta_1}$ ，式 (11) 退化为式 (10)。
 
@@ -172,52 +172,52 @@ $$d=\frac{N}{2\left[\omega_2\sqrt{n^2(\omega_2)-n_0^2\sin^2\theta_1}-
 
 对斜入射情形，能量反射率由 s 偏振与 p 偏振平均得到：
 
-$$R=\frac{1}{2}\left(r_s^2+r_p^2\right), \tag{12}$$
+$$R=\frac{1}{2}\left(r_s^2+r_p^2\right), \qquad(12)$$
 
 其中振幅反射系数
 
-$$r_s=\frac{n_0\cos\theta_1-n\cos\theta_2}{n_0\cos\theta_1+n\cos\theta_2}, \tag{13}$$
+$$r_s=\frac{n_0\cos\theta_1-n\cos\theta_2}{n_0\cos\theta_1+n\cos\theta_2}, \qquad(13)$$
 
-$$r_p=\frac{n\cos\theta_1-n_0\cos\theta_2}{n\cos\theta_1+n_0\cos\theta_2}. \tag{14}$$
+$$r_p=\frac{n\cos\theta_1-n_0\cos\theta_2}{n\cos\theta_1+n_0\cos\theta_2}. \qquad(14)$$
 
 由式 (12)–(14) 可计算 A 点的反射率 $r_{01}$ 与透射率 $t_{01}=1-r_{01}$ ；B 点（外延层—衬底界面）反射率记为 $r_{1s}$ ，计算方式与 $r_{01}$ 相同；C 点反射率记为 $r_{10}$ 、透射率 $t_{10}=1-r_{10}$ 。于是两束反射光的光强为
 
-$$I_1=r_{01},\qquad I_2=t_{01}r_{1s}t_{10}. \tag{15}$$
+$$I_1=r_{01},\qquad I_2=t_{01}r_{1s}t_{10}. \qquad(15)$$
 
 #### 2.6.2 正入射简化
 
 由式 (12)–(14) 可知，入射角在 $0°$ – $40°$ 范围内能量反射比几乎不随入射角变化；本题实测入射角为 10° 与 15°，故可按正入射（ $\theta_1=0$ ）简化反射率计算，误差很小。取 $n_0=1$ 、 $\theta_1=0$ ，式 (13)、(14) 简化为
 
 $$r_{01}=r_{10}=\left(\frac{n_0-n}{n_0+n}\right)^2,\qquad
-r_{1s}=\left(\frac{n_s-n}{n_s+n}\right)^2. \tag{16}$$
+r_{1s}=\left(\frac{n_s-n}{n_s+n}\right)^2. \qquad(16)$$
 
 由式 (15)、(16) 得
 
-$$I_1=r_{01}=r_{10}=\left(\frac{n_0-n}{n_0+n}\right)^2, \tag{17}$$
+$$I_1=r_{01}=r_{10}=\left(\frac{n_0-n}{n_0+n}\right)^2, \qquad(17)$$
 
-$$I_2=t_{01}r_{1s}t_{10}=(1-I_1)^2\left(\frac{n_s-n}{n_s+n}\right)^2. \tag{18}$$
+$$I_2=t_{01}r_{1s}t_{10}=(1-I_1)^2\left(\frac{n_s-n}{n_s+n}\right)^2. \qquad(18)$$
 
 #### 2.6.3 由包络反演折射率
 
 由双光束干涉模型式 (4)，干涉光谱的极大、极小值为
 
-$$R_{\max}=I_1+I_2+2\sqrt{I_1I_2}=\left(\sqrt{I_1}+\sqrt{I_2}\right)^2, \tag{19}$$
+$$R_{\max}=I_1+I_2+2\sqrt{I_1I_2}=\left(\sqrt{I_1}+\sqrt{I_2}\right)^2, \qquad(19)$$
 
-$$R_{\min}=I_1+I_2-2\sqrt{I_1I_2}=\left(\sqrt{I_1}-\sqrt{I_2}\right)^2. \tag{20}$$
+$$R_{\min}=I_1+I_2-2\sqrt{I_1I_2}=\left(\sqrt{I_1}-\sqrt{I_2}\right)^2. \qquad(20)$$
 
 记 $A=\sqrt{I_1}$ ， $B=\sqrt{I_2}$ ， $C=\sqrt{R_{\max}}$ ， $D=\sqrt{R_{\min}}$ ，则
 
-$$C=A+B,\qquad D=A-B, \tag{21}$$
+$$C=A+B,\qquad D=A-B, \qquad(21)$$
 
-$$A=\frac{C+D}{2},\qquad B=\frac{C-D}{2}. \tag{22}$$
+$$A=\frac{C+D}{2},\qquad B=\frac{C-D}{2}. \qquad(22)$$
 
 由式 (17) 反解出外延层折射率
 
-$$n=\frac{1+A}{1-A}, \tag{23}$$
+$$n=\frac{1+A}{1-A}, \qquad(23)$$
 
 由式 (18) 反解出衬底折射率
 
-$$n_s=\frac{n\left(1-A^2-B\right)}{1-A^2+B}. \tag{24}$$
+$$n_s=\frac{n\left(1-A^2-B\right)}{1-A^2+B}. \qquad(24)$$
 
 其中 $R_{\max}(\omega)$ 、 $R_{\min}(\omega)$ 是实测干涉光谱的上下包络，由光谱的极大值点、极小值点分别连接（插值）得到；其具体提取算法（滤波、极值点定位、包络插值）属于问题 2 的算法部分，本节只将其作为模型的已知输入。
 
@@ -281,7 +281,7 @@ flowchart LR
 
 干涉光谱中叠加有测量噪声，直接定位波峰/波谷会引入较大误差，因此先滤波。采用 **101 点中心移动平均**：
 
-$$\bar{y}_i=\frac{1}{101}\sum_{k=-50}^{50}y_{i+k}, \tag{25}$$
+$$\bar{y}_i=\frac{1}{101}\sum_{k=-50}^{50}y_{i+k}, \qquad(25)$$
 
 其中 $y_i$ 为原始反射率， $\bar{y}_i$ 为滤波后的反射率。边界处可用较短的对称窗口或边缘补齐处理。滤波后的曲线显著平滑，同时保持干涉条纹的周期结构（图 3）。
 
@@ -348,7 +348,7 @@ $$n_s(\omega)=\frac{n\left(1-A^2-B\right)}{1-A^2+B}.$$
 
 在 2000–3800 cm⁻¹ 稳定区间内，将全部波峰、波谷按波数排序。任意两个极值点 $i<j$ 之间的条纹间隔数为
 
-$$N=\frac{j-i}{2}, \tag{26}$$
+$$N=\frac{j-i}{2}, \qquad(26)$$
 
 即波峰—波峰、波谷—波谷为整数 $N$ ，波峰—波谷为半整数 $N$ 。为减少计算误差，**不考虑 $N=0.5$ （相邻峰谷）的组合**，对其余全部组合，按问题 1 的式 (11)（重列如下）：
 
@@ -387,7 +387,7 @@ $$d=\frac{N}{2\left[\omega_j\sqrt{n^2(\omega_j)-n_0^2\sin^2\theta_1}-
 
 $$r_{\text{the}}(\omega)=\frac{r_{\min}(\omega)+r_{\max}(\omega)}{2}
 +\bigl(r_{\max}(\omega)-r_{\min}(\omega)\bigr)
-\left[\cos^2\bigl(\Delta\pi\omega+\delta\varphi\bigr)-\frac12\right], \tag{27}$$
+\left[\cos^2\bigl(\Delta\pi\omega+\delta\varphi\bigr)-\frac12\right], \qquad(27)$$
 
 其中 $r_{\min}(\omega)$ 、 $r_{\max}(\omega)$ 为实测数据包络， $\delta\varphi$ 为调整曲线位置的相位参数（按最小二乘拟合，附件 1 为 1.3283、附件 2 为 1.8289）。将理论光谱与实测光谱对比（图 6）：两者在 2000–3800 cm⁻¹ 内高度重合，均方根误差仅为 0.028%（附件 1）与 0.043%（附件 2）（反射率百分点），说明模型与厚度结果可靠。
 
@@ -428,14 +428,14 @@ flowchart LR
 
 考虑光线在外延层内多次反射的情形（问题题目图 2）： $I_1$ 只经过一次反射（空气—外延层界面）； $I_2$ 经空气—外延层透射、外延层—衬底反射、外延层—空气再透射； $I_3$ 经透射后在外延层内反射 3 次（2 次外延层—衬底界面、1 次外延层—空气界面）再透射； $I_4$ 及以后各束光中间的反射次数按级数增加。各束光的光强为
 
-$$I_1=r_{01},\qquad I_2=t_{01}r_{1s}t_{10}, \tag{28}$$
+$$I_1=r_{01},\qquad I_2=t_{01}r_{1s}t_{10}, \qquad(28)$$
 
 $$I_3=t_{01}r_{1s}^{2}r_{10}t_{10},\qquad
-I_4=t_{01}r_{1s}^{3}r_{10}^{2}t_{10}. \tag{29}$$
+I_4=t_{01}r_{1s}^{3}r_{10}^{2}t_{10}. \qquad(29)$$
 
 由式 (28)、(29) 可知，出现明显多次反射的必要条件是：**至少 $I_3$ 不能过小**，即外延层—衬底界面反射率 $r_{1s}$ 要足够大。由式 (16)（问题 1）， $r_{1s}=((n_s-n)/(n_s+n))^2$ ，因此 $r_{1s}$ 较大等价于外延层与衬底折射率之比足够大。可给出定量判据
 
-$$\frac{n_s}{n}\ge 3 \quad \text{或} \quad \frac{n}{n_s}\ge 3. \tag{30}$$
+$$\frac{n_s}{n}\ge 3 \quad \text{或} \quad \frac{n}{n_s}\ge 3. \qquad(30)$$
 
 例如，取 $n_0=1$ 、 $n=4$ 、 $n_s=4/3$ （比值恰为 3），则 $r_{10}=r_{01}=0.36$ ， $t_{10}=t_{01}=0.64$ ， $r_{1s}=0.25$ ， $I_1=0.36$ ， $I_2=0.1024$ ， $I_3=0.009216$ ， $I_4=0.00082944$ —— $I_3$ 约占 $I_2$ 的 9%，已不可忽略；折射率比值越大， $I_3$ 、 $I_4$ 越显著。
 
@@ -447,27 +447,27 @@ $$\frac{n_s}{n}\ge 3 \quad \text{或} \quad \frac{n}{n_s}\ge 3. \tag{30}$$
 
 多光束干涉在物理上永远存在，其总光强是各束反射光的相干叠加，可写成收敛级数并求和：
 
-$$I=\frac{I_1+I_2+2\sqrt{I_1I_2}\cos\delta}{1+I_1I_2+2\sqrt{I_1I_2}\cos\delta}, \tag{31}$$
+$$I=\frac{I_1+I_2+2\sqrt{I_1I_2}\cos\delta}{1+I_1I_2+2\sqrt{I_1I_2}\cos\delta}, \qquad(31)$$
 
 其中分母反映多次反射的累积效应。当分母中的多次反射项可忽略时，式 (31) 退化为双光束模型式 (4)。
 
 由式 (31)，干涉光谱的最大、最小值变为
 
 $$R_{\max}=\frac{I_1+I_2+2\sqrt{I_1I_2}}{1+I_1I_2+2\sqrt{I_1I_2}}
-=\left(\frac{\sqrt{I_1}+\sqrt{I_2}}{1+\sqrt{I_1I_2}}\right)^2, \tag{32}$$
+=\left(\frac{\sqrt{I_1}+\sqrt{I_2}}{1+\sqrt{I_1I_2}}\right)^2, \qquad(32)$$
 
 $$R_{\min}=\frac{I_1+I_2-2\sqrt{I_1I_2}}{1+I_1I_2-2\sqrt{I_1I_2}}
-=\left(\frac{\sqrt{I_1}-\sqrt{I_2}}{1-\sqrt{I_1I_2}}\right)^2. \tag{33}$$
+=\left(\frac{\sqrt{I_1}-\sqrt{I_2}}{1-\sqrt{I_1I_2}}\right)^2. \qquad(33)$$
 
 记 $A=\sqrt{I_1}$ ， $B=\sqrt{I_2}$ ， $C=\sqrt{R_{\max}}$ ， $D=\sqrt{R_{\min}}$ ，则
 
-$$C=\frac{A+B}{1+AB},\qquad D=\frac{A-B}{1-AB}. \tag{34}$$
+$$C=\frac{A+B}{1+AB},\qquad D=\frac{A-B}{1-AB}. \qquad(34)$$
 
 这是关于 $A$ 、 $B$ 的二元二次方程组，共有 4 组根，其中 2 组根大于 1（无物理意义）舍去，保留
 
-$$A=\frac{1+CD-\sqrt{(1-C^2)(1-D^2)}}{C+D}, \tag{35}$$
+$$A=\frac{1+CD-\sqrt{(1-C^2)(1-D^2)}}{C+D}, \qquad(35)$$
 
-$$B=\frac{1-CD-\sqrt{(1-C^2)(1-D^2)}}{C-D}. \tag{36}$$
+$$B=\frac{1-CD-\sqrt{(1-C^2)(1-D^2)}}{C-D}. \qquad(36)$$
 
 得到 $A$ 、 $B$ 后，外延层与衬底折射率的计算公式与问题 1 相同（式 (23)、(24)）：
 
